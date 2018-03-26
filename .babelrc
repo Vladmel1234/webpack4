@@ -1,3 +1,4 @@
 {
-   "presets": ["env", "react", "stage-1"]
+   "presets": ["env", "react", "stage-0", "latest"],
+   "plugins": ["react-hot-loader/babel", "dynamic-import-node"]
 }
