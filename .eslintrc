@@ -9,7 +9,11 @@
       "expect": true,
       "should": true
     },
+    "plugins": [
+      "prettier"
+    ],
     "rules": {
+      "prettier/prettier": "error",
       "strict": 0,
       "quotes": [2, "single"],
       "no-underscore-dangle": 0,
